@@ -1,0 +1,6 @@
+__pycache__
+
+*.lnk
+
+retro_integration_ui/
+games/

@@ -4,7 +4,7 @@ import cv2
 from src.processing.preprocessing import fetch_pipeline
 
 if __name__ == '__main__':
-    env = retro.make(game='SuperMarioKart-Snes')
+    env = retro.make(game='SuperMarioKart-Snes', state='states/1P_DK_Shroom_Solo')
     env.reset()
 
     pre_pipeline = fetch_pipeline([0, 112, 0, 256])
@@ -16,7 +16,8 @@ if __name__ == '__main__':
         key = cv2.waitKey(1)
         if key == ord('q'):
             break
+
     cv2.destroyAllWindows()
     env.close()
+
     print(state.shape, info)
-    print(type(state))

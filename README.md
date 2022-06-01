@@ -1,9 +1,6 @@
 # Retro Gym
 
 ## TODOs
-* Remove unneaded info variables
-* Define a standard naming for variables
-* Clean-up states folder
 * Find a way to reduce state dimension
 
 ## How to setup
@@ -40,3 +37,7 @@ You have to run `import retro; print(retro.__path__)`! It'll display a filepath 
 ### Step 2 - Integrate the ROM 
 
 Execute `Ctrl + Shift + O` and locate the ROM in your filesistem.
+
+## Special thanks to
+
+* Esteveste - **Started code for Mario Kart** - [GitHub](https://github.com/esteveste/gym-SuperMarioKart-Snes)
